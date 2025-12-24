@@ -1,0 +1,61 @@
+! --- Esquema TTY Original para urxvt ---
+
+urxvt*background: #000000
+urxvt*foreground: #a5a5a5
+
+! Colores Normales (CGA/VGA)
+urxvt*color0:  #000000
+urxvt*color1:  #a80000
+urxvt*color2:  #00a800
+urxvt*color3:  #a85400
+urxvt*color4:  #0000a8
+urxvt*color5:  #a800a8
+urxvt*color6:  #00a8a8
+urxvt*color7:  #a8a8a8
+
+! Colores Brillantes
+urxvt*color8:  #545454
+urxvt*color9:  #ff5454
+urxvt*color10: #54ff54
+urxvt*color11: #ffff54
+urxvt*color12: #5454ff
+urxvt*color13: #ff54ff
+urxvt*color14: #54ffff
+urxvt*color15: #ffffff
+
+! --- Misc Fixed (Fuente TTY Debian) ---
+! El tamaño 9x15 es el más cómodo, más pequeña usar 6x13
+urxvt*font: 8x16
+urxvt*boldMode: false
+urxvt*intensityStyles: true
+urxvt*letterSpace: 0
+urxvt*boldFont: 8x16
+
+! --- RENDERIZADO (Nitidez) ---
+urxvt*antialias: false
+urxvt*hinting: false
+urxvt*depth: 24
+
+! Elimina barra de desplazamiento 
+urxvt*scrollBar: false
+! --- Espaciado y Bordes ---
+urxvt*internalBorder: 8
+urxvt*externalBorder: 0
+urxvt*borderWidth: 0
+! --- Cursor de Rayita (Underline) ---
+urxvt*cursorUnderline: true
+urxvt*cursorColor: #a8a8a8
+urxvt*cursorBlink: true
+
+! Habilitar la extensión del portapapeles
+urxvt*perl-ext-common: default,selection-to-clipboard,matcher
+
+! Copiar automáticamente al seleccionar con el ratón
+urxvt*copyCommand: xsel --clipboard --input
+urxvt*pasteCommand: xsel --clipboard --output
+! Copiar al portapapeles
+urxvt*keysym.C-A-C: perl:selection-to-clipboard:copy
+! Pegar desde el portapapeles
+urxvt*keysym.C-A-V: perl:selection-to-clipboard:paste
+
+
