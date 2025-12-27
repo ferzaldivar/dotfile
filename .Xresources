@@ -1,14 +1,14 @@
 ! --- Esquema TTY Original para urxvt ---
 
 urxvt*background: #000000
-urxvt*foreground: #a5a5a5
+urxvt*foreground: #aaaaaa
 
 ! Colores Normales (CGA/VGA)
 urxvt*color0:  #000000
-urxvt*color1:  #a80000
+urxvt*color1:  #d70000
 urxvt*color2:  #00a800
 urxvt*color3:  #a85400
-urxvt*color4:  #0000a8
+urxvt*color4:  #5f5fff
 urxvt*color5:  #a800a8
 urxvt*color6:  #00a8a8
 urxvt*color7:  #a8a8a8
