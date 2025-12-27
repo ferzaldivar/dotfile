@@ -1,0 +1,51 @@
+# Alacritty — TTY Debian colors, factory window style
+
+window:
+  padding:
+    x: 8
+    y: 6
+
+font:
+  normal:
+    family: Fixedsys
+    style: Regular
+  bold:
+    family: Fixedsys
+    style: Regular
+  italic:
+    family: Fixedsys
+    style: Regular
+  size: 8.5
+
+cursor:
+  style:
+    shape: Underline
+    blinking: On
+  cursor: "#AAAAAA"
+  text: "#AAAAAA"
+  unfocused_hollow: false
+
+colors:
+  primary:
+    background: "#000000"
+    foreground: "#AAAAAA"
+
+  normal:
+    black:   "#000000"
+    red:     "#D70000"
+    green:   "#00AA00"
+    yellow:  "#AA5500"
+    blue:    "#5F5FFF"
+    magenta: "#AA00AA"
+    cyan:    "#00AAAA"
+    white:   "#AAAAAA"
+
+  bright:
+    black:   "#555555"
+    red:     "#FF5555"
+    green:   "#55FF55"
+    yellow:  "#FFFF55"
+    blue:    "#5555FF"
+    magenta: "#FF55FF"
+    cyan:    "#55FFFF"
+    white:   "#FFFFFF"
