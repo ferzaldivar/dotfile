@@ -32,11 +32,11 @@ colors:
 
   normal:
     black:   "#000000"
-    red:     "#D70000"
+    red:     "#E64545"
     green:   "#00AA00"
     yellow:  "#AA5500"
     blue:    "#5F5FFF"
-    magenta: "#AA00AA"
+    magenta: "#C678DD"
     cyan:    "#00AAAA"
     white:   "#AAAAAA"
 
