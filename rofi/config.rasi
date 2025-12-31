@@ -1,0 +1,11 @@
+configuration {
+	modi: "drun,run,window";
+	show-icons: false;
+	font: "Fixed 10";
+	lines: 3;
+	columns: 1;
+	padding: 20;
+
+}
+
+@theme "theme"

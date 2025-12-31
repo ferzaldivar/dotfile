@@ -1,0 +1,73 @@
+* {
+	bg: #000000;
+	fg: #e5e5e5;
+	dim: #888888;
+	border: #888888;
+	select: #ffffff;
+	highlight: 505050;	
+	background-color: @bg;
+	text-color: @fg;
+
+}
+
+window {
+	background-color: @bg;
+	border: 2px;
+	border-color: @border; 
+	padding: 6px;
+	widht: 40%;
+}
+
+mainbox {
+	background-color: @bg;
+	spacing: 4px;
+}
+
+inputbar { 
+	background-color: @bg;
+	text-color: @fg;
+	padding: 4px;
+	border: 0px;
+}
+
+prompt { 
+	text-color: @dim;
+}
+
+entry { 
+	background-color: @bg;
+	text-color: @fg;
+	cursor: text;
+}
+
+listview {
+	background-color: @bg;
+	lines: 8;
+	fixed-height: true;
+	scrollbar: false;
+	spacing: 2px;
+}
+
+element {
+	background-color: @bg;
+	text-color: @fg;
+}
+
+element selected {
+	background-color: @highlight;
+	text-color: @fg;
+}
+
+element urgent {
+	text-color: @urgent;
+}
+
+message {
+	background-color: @bg;
+	text-color: @dim;
+}
+
+textbox {
+	background-color: @bg;
+	text-color: @dim;
+}
